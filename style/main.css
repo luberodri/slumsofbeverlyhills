@@ -1,30 +1,4 @@
-.btn--danger {
-  display: inline-block;
-  padding: 10px;
-  border: 1px solid black;
-  text-decoration: none;
-  background-color: black;
-  background-color: brown;
-}
-
-.btn--info {
-  display: inline-block;
-  padding: 10px;
-  border: 1px solid black;
-  text-decoration: none;
-  background-color: black;
-  background-color: chocolate;
-}
-
-.btn--warning {
-  display: inline-block;
-  padding: 20px;
-  text-decoration: none;
-  color: white;
-  background: black;
-}
-
-.box--texto {
+.box--titulo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,25 +9,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 10px;
+  padding: 30px;
   font-family: 'Roboto', sans-serif;
-  margin: 50px;
-  padding: 100px;
 }
 
-div {
+.box--foto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +25,7 @@ div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 50px;
-  padding: 100px;
+  margin: 10px;
+  padding: 30px;
 }
 /*# sourceMappingURL=main.css.map */
