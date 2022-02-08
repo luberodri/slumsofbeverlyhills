@@ -11,19 +11,19 @@
 
 
 
-
 .box--titulo {
     @include box;
     font-family: 'Roboto', sans-serif;   
 }
+
 
 .box--foto {
     @include box;
 }
 
 
-.pie {
-    padding: 10px;
+.box--titulo2 {
+    @include box;
 }
 
 
