@@ -1,29 +1,18 @@
 
+.fuente {
+    font-family: 'Roboto', sans-serif;
+}
 
-
-@mixin box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px;
-    padding: 30px;
+.fuente-2 {
+    font-family: 'Roboto Serif', sans-serif;
 }
 
 
 
-.box--titulo {
-    @include box;
-    font-family: 'Roboto', sans-serif;   
-}
 
 
-.box--foto {
-    @include box;
-}
 
 
-.box--titulo2 {
-    @include box;
-}
+
 
 
